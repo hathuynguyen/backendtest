@@ -5,7 +5,7 @@ const app = express();
 const postRoute = require("./routes/posts")
 
 app.get('/', (req, res) => 
- res.send('o day co nhung thu xam xi :))')
+ res.send('Xin chao cac ban')
 );
 
 //Middleware
